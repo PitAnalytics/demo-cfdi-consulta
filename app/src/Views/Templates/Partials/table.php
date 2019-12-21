@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="row mt-4">
+	<div class="row">
     <div class="col-md-12">
       <div class="card rounded-0">
         <div class="card-body">
@@ -7,11 +7,12 @@
             <table id="dataTable" class="table table-bordred table-hover">
               <thead>
                 <th class="text-primary">Fecha</th>       
+                <th class="text-primary">Nombre</th>       
                 <th class="text-primary">RFC Emisor</th>
                 <th class="text-primary">RFC Receptor</th>
                 <th class="text-primary">UUID</th>
                 <th class="text-primary">Total</th>
-                <th class="text-primary">Estado</th>        
+                <th class="text-primary">Estado</th>     
               </thead>
               <tbody>
               {% for item in facturas %}
