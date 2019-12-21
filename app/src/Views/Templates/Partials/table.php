@@ -3,9 +3,8 @@
     <div class="col-md-12">
       <div class="card rounded-0">
         <div class="card-body">
-            <h4 class="card-title text-info">Validación de CFDI en Serie</h4>
-            <table id="dataTable" class="table table-bordred table-hover">
-              <thead>
+          <table id="dataTable" class="table table-bordred table-hover">
+            <thead>
                 <th class="text-primary">Fecha</th>       
                 <th class="text-primary">Nombre</th>       
                 <th class="text-primary">RFC Emisor</th>
@@ -13,8 +12,8 @@
                 <th class="text-primary">UUID</th>
                 <th class="text-primary">Total</th>
                 <th class="text-primary">Estado</th>     
-              </thead>
-              <tbody>
+            </thead>
+            <tbody>
               {% for item in facturas %}
                 <tr>
                   <td class="text-info">{{item.fecha}}</td>
@@ -32,8 +31,8 @@
                   {% endif %}
                 </tr>
               {% endfor %}
-              </tbody>
-            </table>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
